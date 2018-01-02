@@ -3,32 +3,79 @@
 <head>
 <title>PATTAYA SOOK JAI APT 파타야 터미널 리조트 쑥짜이 아파트 </title>
 <meta charset="utf-8">
-<link rel="stylesheet" href="style.css">
+<style>
+
+#apt{
+  padding-bottom: 10px;
+}
+#jlcondo{
+  padding-bottom: 10px;
+}
+#trcondo{
+  padding-bottom: 10px;
+}
+#cruse{
+  padding-bottom: 10px;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+
+}
+h1{
+  font-size: 35px;
+  text-align: center;
+  border-bottom: 1px gray solid;
+  margin: 0;
+  padding: 20px;
+}
+.nav{
+  border-right: 1px solid gray;
+  width:250px;
+  margin: 0;
+  padding: 20px;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  }
+  #article{
+    padding-left: 60px;
+  }
+body{
+  margin: 0;
+}
+@media(max-width:800px){
+  .grid{
+    display: block;
+  }
+  .nav{
+    border-right:none;
+    }
+</style>
+
 </head>
+
 <body>
     <h1><a href="index.html">SOOK JAI APT / 쑥짜이 아파트</a></h1>
-<div id="grid" >
-    <ol>
-      <li id="SJAPT"><a href="1.html">SOOK JAI APT</a></li>
-      <li id="JLCONDO"><a href="2.html">JOMTIEN LUMPINI CONDO</a></li>
-      <li id="TRCONDO"><a href="3.html">THE TRUST CONDO</a></li>
+<div class="grid">
+  <div class="nav">
+    <ol id="list">
+      <li id="apt"><a href="1.html">SOOK JAI APT</a></li>
+      <li id="jlcondo"><a href="2.html">JOMTIEN LUMPINI CONDO</a></li>
+      <li id="trcondo"><a href="3.html">THE TRUST CONDO</a></li>
       <li id="cruse"><a href="4.html">PATTAYA WATER SPORTS</a></li>
     </ol>
-
-    <div id="article">
+  </div>
+    <div id="article" >
       <h2>JOMTIEN LUMPINI CONDO</h2>
+      
+      <p>방콕-파타야 시외 버스 터미널옆 (룽르엉 버스)
+      요즘은 터미널에 도착하는 버스들이 뒷문으로 들어 가는데
+      <p>바로 제 <a href="http://cafe.naver.com/laolife/913" target="-_blank" title="pattaya sookjaiapt">쑥짜이 아파트</a> 골목
+      <strong>오렌지색 건물 3채</strong>가 바로 보입니다</P></p>
 
-    <img src="sookjaiapt/pic/lumpini.jpg"width="350">
-    <img src="sookjaiapt/pic/lumpinipool.jpg"width="350">
-    <img src="sookjaiapt/pic/lumpinipool2.jpg"width="350">
-    <img src="sookjaiapt/pic/lumpiniroom3.jpg"width="350">
-    <img src="sookjaiapt/pic/lumpiniroom.jpg"width="350">
-    <img src="sookjaiapt/pic/lumpiniroom2.jpg"width="350">
-
-
-    <p>방콕-파타야 시외 버스 터미널옆 (룽르엉 버스)
-    요즘은 터미널에 도착하는 버스들이 뒷문으로 들어 가는데 <p>바로 제 <a href="http://cafe.naver.com/laolife/913" target="-_blank" title="pattaya sookjaiapt">쑥짜이 아파트</a> 골목
-    <strong>오렌지색 건물 3채</strong>가 바로 보입니다</P></p>
   </div>
 </div>
 
